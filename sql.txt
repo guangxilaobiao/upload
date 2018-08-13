@@ -1,0 +1,10 @@
+SELECT * FROM alipay_record WHERE dealWithEachOther LIKE '%欣%';
+SELECT * FROM alipay_record WHERE commodityName LIKE '%%';
+SELECT * FROM alipay_record WHERE amountOfMoney BETWEEN 240 and 255;
+-- INSERT INTO alipay_record_fsx (SELECT * FROM alipay_record WHERE dealWithEachOther LIKE '%欣%');
+
+SELECT * FROM alipay_record_fsx WHERE field11 LIKE "%支出%";
+SELECT * FROM alipay_record_fsx WHERE field11 LIKE "%收入%";
+SELECT SUM(amountOfMoney) FROM alipay_record_fsx WHERE field11 LIKE "%支出%"; -- 15790
+SELECT SUM(amountOfMoney) FROM alipay_record_fsx WHERE field11 LIKE "%收入%"; -- 12311
+SELECT SUM(15790 - 12311);
