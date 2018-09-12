@@ -1,0 +1,248 @@
+2018-08-27 15:12:16,730 main INFO [BasicTypeRegistry] 150 Type registration [blob] overrides previous : org.hibernate.type.BlobType@325bb9a6
+2018-08-27 15:12:16,730 main INFO [BasicTypeRegistry] 150 Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@325bb9a6
+2018-08-27 15:12:16,730 main INFO [BasicTypeRegistry] 150 Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1d12b024
+log4j:WARN No appenders could be found for logger (net.sf.ehcache.config.ConfigurationFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2018-08-27 15:12:16,959 main WARN [UUIDHexGenerator] 58 Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-08-27 15:12:17,231 main INFO [SessionFactoryObjectFactory] 105 Not binding factory to JNDI, no JNDI name configured
+2018-08-27 15:12:17,234 main INFO [UpdateTimestampsCache] 57 starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+八月 27, 2018 3:12:17 下午 org.hibernate.cache.SingletonEhCacheProvider buildCache
+警告: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+八月 27, 2018 3:12:17 下午 org.hibernate.cache.SingletonEhCacheProvider buildCache
+警告: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+2018-08-27 15:12:17,406 main INFO [StandardQueryCache] 76 starting query cache at region: org.hibernate.cache.StandardQueryCache
+2018-08-27 15:12:18,300 main INFO [HibernateTransactionManager] 416 Using DataSource [com.pinnet.common.dao.dynamic.dataSource.DynamicDataSource@4d41ba0f] of Hibernate SessionFactory for HibernateTransactionManager
+2018-08-27 15:12:18,489 main INFO [BrokerService] 233 Loaded the Bouncy Castle security provider.
+
+
+
+
+
+
+mkfs -t ext3 /dev/xvde5
+mkfs -t ext3 /dev/xvde6
+mkfs -t ext3 /dev/xvde7
+mkfs -t ext3 /dev/xvde8
+mkfs -t ext3 /dev/xvde9
+mkfs -t ext3 /dev/xvde10
+mkfs -t ext3 /dev/xvde11
+
+mkdir -p /srv/ftpd/log
+mkdir -p /opt/mysql/data
+mkdir -p /opt/mysql/databackup
+mkdir -p /srv/ftp/wit/ftpd
+
+mount /dev/xvde5 /home
+mount /dev/xvde6 /opt
+mount /dev/xvde7 /srv/ftpd/log
+mount /dev/xvde8 /boot
+mount /dev/xvde9 /opt/mysql/data
+mount /dev/xvde10 /opt/mysql/databackup
+mount /dev/xvde11 /srv/ftp/wit/ftpd
+
+
+umount /dev/xvde5 /home
+umount /dev/xvde6 /opt
+umount /dev/xvde7 /srv/ftpd/log
+umount /dev/xvde8 /boot
+umount /dev/xvde9 /opt/mysql/data
+umount /dev/xvde10 /opt/mysql/databackup
+umount /dev/xvde11 /srv/ftp/wit/ftpd
+
+
+
+
+
+
+
+
+
+
+
+ If your CacheManager has no maxBytesLocalHeap set, you need to either set maxEntriesLocalHeap or maxBytesLocalHeap at the Cache level
+
+ /usr/java/jre/bin/java -d64 
+ -DProc=PINNETPLATFORM -Dorg.apache.jasper.compiler.disablejsr199=true 
+ -DNETYPES=ePMS720Group 
+ -Dinstall_language=zh 
+ -DPLATFORM_HOME=/opt/ePMSGroup 
+ -Djetty_conf=spring-jetty-linux.xml 
+ -DFTP_HOME=/srv/ftp/wit/ftpd 
+ -DLOG_HOME=/srv/ftpd/log/ePMS720G/platform 
+ -DFLAG_PLT=/opt/ePMSGroup/plt-conf/StartPlatform.conf 
+ -Dlocation=server.xml 
+ -Xms4096m 
+ -Xmx4096m 
+ -XX:+UseConcMarkSweepGC 
+ -XX:+CMSClassUnloadingEnabled 
+ -XX:+DisableExplicitGC 
+ -XX:PermSize=512M 
+ -XX:MaxPermSize=512M 
+ -XX:+HeapDumpOnOutOfMemoryError 
+ -XX:HeapDumpPath=../plt-conf/dump 
+ com.pinnet.sso.server.main.Main
+
+jmap -histo 75056|sort -k 3 -g -r|less
+
+S0C、S1C、S0U、S1U：Survivor 0/1区容量（Capacity）和使用量（Used）
+EC、EU：Eden区容量和使用量
+OC、OU：年老代容量和使用量
+PC、PU：永久代容量和使用量
+YGC、YGT：年轻代GC次数和GC耗时
+FGC、FGCT：Full GC次数和Full GC耗时
+GCT：GC总耗时
+
+
+
+http://angelbill3.iteye.com/blog/2125383
+https://blog.csdn.net/lifac/article/details/12836389
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=concurrent%20mark-sweep%20generation&oq=concurrent%2520mark-sweep%2520generation&rsv_pq=95142d5d000019fb&rsv_t=c29bu3apZDbF6G%2FPyNw9lEdmLVCVwSc2R3WO5vmQ7LhnauuBxNzCfdO810A&rqlang=cn&rsv_enter=0&rsv_sug3=3&rsv_sug1=3&rsv_sug7=100&rsv_sug4=702&rsv_sug=1
+http://www.cnblogs.com/kongzhongqijing/articles/3630264.html
+http://softbeta.iteye.com/blog/1467379
+https://blog.csdn.net/jaryle/article/details/52433605
+
+
+
+
+
+/usr/java/jre/bin/java -d64 
+-DProc=PINNETPLATFORM 
+-Dorg.apache.jasper.compiler.disablejsr199=true 
+-DNETYPES=ePMS720Group -Dinstall_language=zh 
+-DPLATFORM_HOME=/opt/ePMSGroup 
+-Djetty_conf=spring-jetty-linux.xml 
+-DFTP_HOME=/srv/ftp/wit/ftpd 
+-DLOG_HOME=/srv/ftpd/log/ePMS720G/platform 
+-DFLAG_PLT=/opt/ePMSGroup/plt-conf/StartPlatform.conf 
+-Dlocation=server.xml 
+-Xms4096m 
+-Xmx4096m 
+-XX:+UseConcMarkSweepGC 
+-XX:+CMSClassUnloadingEnabled 
+-XX:+DisableExplicitGC 
+-XX:CMSInitiatingOccupancyFraction=70 
+-XX:PermSize=512M 
+-XX:MaxPermSize=512M 
+-XX:+HeapDumpOnOutOfMemoryError 
+-XX:HeapDumpPath=../plt-conf/dump 
+com.pinnet.sso.server.main.Main
+
+
+
+
+
+
+Attaching to process ID 22167, please wait...
+Debugger attached successfully.
+Server compiler detected.
+JVM version is 24.80-b11
+
+using thread-local object allocation.
+Garbage-First (G1) GC with 4 thread(s)
+
+Heap Configuration:
+   MinHeapFreeRatio = 40
+   MaxHeapFreeRatio = 70
+   MaxHeapSize      = 4294967296 (4096.0MB)
+   NewSize          = 1363144 (1.2999954223632812MB)
+   MaxNewSize       = 17592186044415 MB
+   OldSize          = 5452592 (5.1999969482421875MB)
+   NewRatio         = 2
+   SurvivorRatio    = 8
+   PermSize         = 536870912 (512.0MB)
+   MaxPermSize      = 536870912 (512.0MB)
+   G1HeapRegionSize = 2097152 (2.0MB)
+
+Heap Usage:
+G1 Heap:
+   regions  = 2048
+   capacity = 4294967296 (4096.0MB)
+   used     = 2384130288 (2273.683822631836MB)
+   free     = 1910837008 (1822.316177368164MB)
+   55.50985895097256% used
+G1 Young Generation:
+Eden Space:
+   regions  = 40
+   capacity = 213909504 (204.0MB)
+   used     = 83886080 (80.0MB)
+   free     = 130023424 (124.0MB)
+   39.21568627450981% used
+Survivor Space:
+   regions  = 6
+   capacity = 12582912 (12.0MB)
+   used     = 12582912 (12.0MB)
+   free     = 0 (0.0MB)
+   100.0% used
+G1 Old Generation:
+   regions  = 1234
+   capacity = 4068474880 (3880.0MB)
+   used     = 2287661296 (2181.683822631836MB)
+   free     = 1780813584 (1698.316177368164MB)
+   56.22896450082052% used
+Perm Generation:
+   capacity = 536870912 (512.0MB)
+   used     = 64285432 (61.30736541748047MB)
+   free     = 472585480 (450.69263458251953MB)
+   11.974094808101654% used
+
+
+
+
+
+
+   Heap Configuration:
+   MinHeapFreeRatio = 40
+   MaxHeapFreeRatio = 70
+   MaxHeapSize      = 4294967296 (4096.0MB)
+   NewSize          = 1363144 (1.2999954223632812MB)
+   MaxNewSize       = 17592186044415 MB
+   OldSize          = 5452592 (5.1999969482421875MB)
+   NewRatio         = 2
+   SurvivorRatio    = 6
+   PermSize         = 536870912 (512.0MB)
+   MaxPermSize      = 536870912 (512.0MB)
+   G1HeapRegionSize = 2097152 (2.0MB)
+
+Heap Usage:
+G1 Heap:
+   regions  = 2048
+   capacity = 4294967296 (4096.0MB)
+   used     = 177798656 (169.56201171875MB)
+   free     = 4117168640 (3926.43798828125MB)
+   4.139697551727295% used
+G1 Young Generation:
+Eden Space:
+   regions  = 49
+   capacity = 190840832 (182.0MB)
+   used     = 102760448 (98.0MB)
+   free     = 88080384 (84.0MB)
+   53.84615384615385% used
+Survivor Space:
+   regions  = 17
+   capacity = 35651584 (34.0MB)
+   used     = 35651584 (34.0MB)
+   free     = 0 (0.0MB)
+   100.0% used
+G1 Old Generation:
+   regions  = 20
+   capacity = 4068474880 (3880.0MB)
+   used     = 39386624 (37.56201171875MB)
+   free     = 4029088256 (3842.43798828125MB)
+   0.9680930855347938% used
+Perm Generation:
+   capacity = 536870912 (512.0MB)
+   used     = 52018696 (49.60889434814453MB)
+   free     = 484852216 (462.39110565185547MB)
+   9.689237177371979% used
+
+javacmd="${PINNETJDK}/bin/java -d64 
+-DProc=${PLTPROCESSINFO} -Djava.rmi.server.hostname=10.183.159.178 
+-Dorg.apache.jasper.compiler.disablejsr199=true -DNETYPES=${NE_Type} 
+-Dinstall_language=${install_language} -DPLATFORM_HOME=${PLT_HOME} 
+-Djetty_conf=spring-jetty-linux.xml -DFTP_HOME=${FTP_HOME} -DLOG_HOME=${LOG_PLT} 
+-DFLAG_PLT=$FLAG_PLT -Dlocation=server.xml -Xms${distribute_memory}m -Xmx${distribute_memory}m 
+-XX:+UseG1GC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=200 -XX:+DisableExplicitGC 
+-XX:G1ReservePercent=20 -XX:InitialSurvivorRatio=6 -XX:InitiatingHeapOccupancyPercent=60 -XX:SurvivorRatio=6 
+-XX:TargetSurvivorRatio=50 -XX:PermSize=512M -XX:MaxPermSize=512M 
+-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=../plt-conf/dump ${RunMain}"
