@@ -1,0 +1,86 @@
+D:\D
+-> dir
+ 驱动器 D 中的卷是 DATA
+ 卷的序列号是 D8B3-0120
+
+ D:\D 的目录
+
+2018/04/27  11:46    <DIR>          .
+2018/04/27  11:46    <DIR>          ..
+2018/01/22  15:54         1,110,564 7z1604.exe
+2017/12/21  15:18         8,071,373 apache-maven-3.2.5-bin.zip
+2017/12/21  14:35         8,617,253 apache-maven-3.3.9-bin.zip
+2017/12/19  14:47         8,900,183 apache-maven-3.5.2-bin.zip
+2017/12/20  12:44        10,645,297 apache-tomcat-7.0.82-windows-x64.zip
+2018/02/11  14:45        35,102,808 Beyond_Compare-Trial-WM.exe
+2017/03/14  14:06         1,840,640 BSQLHackerSetup-0909.exe
+2012/06/08  11:47         1,561,891 BSQLHackerSetup.exe
+2008/06/30  21:25            95,232 CountLines.exe
+2017/12/07  14:41         4,893,448 dexpot_1614_r2439.exe
+2017/12/22  09:31            43,155 Dracula.xml
+2016/11/01  10:38       311,706,668 eclipse-jee-neon-1a-win32.rar
+2017/12/23  15:27       347,560,900 eclipse-jee-oxygen-2-win32-x86_64.zip
+2017/12/26  09:37        45,667,832 Firefox Setup 49.0b9.exe
+2017/06/20  14:50        46,979,936 Firefox_54.0.0.6368_setup.exe
+2018/01/30  14:53         1,116,792 fortune-mod-1.99.1-17.el7.x86_64.rpm
+2018/01/30  14:48         1,116,792 fortune-mod-1.99.1-17.sdl7.x86_64.rpm
+2017/12/15  16:23        13,624,600 haozip_V5.9.5.exe
+2016/08/24  11:15       290,224,256 ideaIC-2016.2.2.exe
+2017/12/12  11:42       384,848,520 ideaIC-2017.3.exe
+2017/12/06  11:27        58,529,192 iDeskSetup_sign_3.0.1.7_S1_201710261612.exe
+2018/03/30  11:00       409,027,512 jdk-10_windows-x64_bin.exe
+2013/04/26  15:50        93,058,456 jdk-7u17-windows-i586.exe
+2018/04/25  10:58       146,861,984 jdk-7u79-windows-x64.exe
+2016/12/26  10:24       204,090,936 jdk-8u111-windows-x64.exe
+2017/12/28  11:03       174,163,338 jdk-8u151-linux-x64.rpm
+2015/07/17  18:15       189,276,248 jdk-8u51-windows-x64.exe
+2017/12/14  16:25        47,092,973 jre-7u79-linux-x64.tar.gz
+2017/12/28  11:11        80,025,700 jre-8u151-linux-x64.tar.gz
+2017/12/28  15:41        63,861,111 jre-8u51-linux-x64.tar.gz
+2017/05/26  18:58         7,382,321 LastPass-Free-Password-Manager_chromecj.com-v4.1.52.crx
+2018/01/09  10:18         4,764,416 log4j-1.2.17 .zip
+2011/12/08  15:27         3,076,122 maven-3.0.3-bin.zip
+2018/02/03  15:21       142,670,904 mongodb-compass-1.11.1-win32-x64.exe
+2018/01/05  11:30        78,209,531 mongodb-linux-x86_64-enterprise-rhel62-3.2.7.tgz
+2018/01/05  11:02        68,669,810 mongodb-linux-x86_64-enterprise-rhel70-3.2.7.tgz
+2018/01/04  16:25        99,171,082 mongodb-linux-x86_64-rhel70-3.6.1.tgz
+2017/12/28  09:46       156,590,080 mongodb-win32-x86_64-2008plus-ssl-3.4.10-signed.msi
+2017/12/27  16:50       189,715,456 mongodb-win32-x86_64-2008plus-ssl-3.6.1-signed.msi
+2018/01/31  14:18        56,936,384 mx_5filehorse01_en.exe
+2017/12/15  10:43       241,987,584 mysql-installer-community-5.6.38.0.msi
+2018/01/18  23:25        28,441,448 Navicat Premium 11.0.10+Patch (2).zip
+2016/07/23  11:07        28,441,448 Navicat Premium 11.0.10+Patch.zip
+2018/01/05  14:14           720,748 net-snmp-agent-libs-5.7.2-28.el7.x86_64.rpm
+2018/01/05  14:25           765,572 net-snmp-libs-5.7.2-28.el7.x86_64.rpm
+2017/11/30  21:31           981,687 nginx-1.12.2.tar.gz
+2017/11/30  21:31         1,449,245 nginx-1.12.2.zip
+2017/11/30  21:30           990,836 nginx-1.13.7.tar.gz
+2017/12/15  11:42        16,674,816 node-v8.9.3-x64.msi
+2017/12/05  18:48        30,644,173 node_modules.rar
+2016/11/28  17:58         4,119,231 Notepad++-6-8-7-Installer.exe
+2017/12/05  18:39        34,940,737 npm--test.rar
+2017/12/06  13:46        28,131,074 pcmaster_6.2.1.0_full.zip
+2017/01/22  13:55        66,665,080 Postman-win64-4.9.3-Setup.exe
+2017/12/07  11:31        57,668,384 qqpcmgr_v12.10.19266.225_1324_0.exe
+2018/01/30  14:51           735,648 recode-3.6-38.el7.x86_64.rpm
+2017/11/30  21:29         1,721,027 redis-4.0.3.tar.gz
+2017/12/15  11:16         1,723,533 redis-4.0.6.tar.gz
+2017/11/30  21:58        30,268,035 redis-desktop-manager-0.9.0.616.exe
+2017/12/15  11:18         5,875,707 Redis-x64-3.0.504.zip
+2017/12/15  11:18         5,224,077 Redis-x64-3.2.100.zip
+2018/01/30  14:25            12,940 sl-5.02-1.el6.x86_64.rpm
+2017/12/07  09:43         8,952,928 Sublime Text Build 3143 x64 Setup.exe
+2018/04/25  16:32           425,088 tcpdump-4.9.0-5.el7.x86_64.rpm
+2017/12/22  09:29            88,431 Techmantium_NauticalButNice.xml
+2017/12/22  09:27            88,427 Techmantium_Neon.xml
+2017/12/22  16:26         6,756,615 Tickeysxz-v1.1.1.zip
+2016/10/22  12:51        18,296,832 TortoiseSVN-1.9.4.27285-x64-svn-1.9.4.msi
+2014/06/26  20:17       446,136,067 Visio2003.rar
+2017/12/29  15:02        50,777,123 VPN工具.zip
+2017/12/27  15:09           173,060 vsftpd-3.0.2-22.el7.x86_64.rpm
+2017/12/27  15:09            23,048 vsftpd-sysvinit-3.0.2-22.el7.x86_64.rpm
+2017/12/29  15:28        75,891,376 Xmanager Enterprise 5 5.0.628.0.exe
+2016/12/26  09:33        29,119,101 Xshell4.rar
+2017/12/15  11:09        36,668,066 zookeeper-3.4.11.tar.gz
+              75 个文件  5,058,480,888 字节
+               2 个目录 143,992,381,440 可用字节
